@@ -45,5 +45,5 @@ src/
 
 ### 1️⃣ Clone the repository
 ```bash
-git clone https://github.com/your-username/expense-tracker.git
-cd expense-tracker
+git clone https://github.com/joshinavin2001/Expenses-Tracker-TS.git
+cd Expenses-Tracker-TS
