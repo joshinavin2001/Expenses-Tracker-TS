@@ -44,7 +44,7 @@ const TotalExp = () => {
       </div>
       <div className="flex gap-2 items-center">
         <h2 className="text-xl font-bold">Total</h2>
-        <div className=" px-3 py-1 rounded bg-white flex justify-center items-center font-semibold text-md">
+        <div className=" px-3 py-1 rounded bg-white text-black flex justify-center items-center font-semibold text-md">
           {totalValue}
         </div>
       </div>

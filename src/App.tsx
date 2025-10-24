@@ -1,12 +1,14 @@
 import InputField from "./components/custom/InputField"
 import OutputField from "./components/custom/OutputField"
+import { ThemeToggle } from "./components/custom/Theme-toggle"
 import TotalExp from "./components/custom/TotalExp"
 
 
 const App = () => {
   return (
     <div className="flex justify-center mt-5 overflow-x-hidden">
-      <div className="bg-zinc-200 p-5 rounded-[20px] ">
+      <div className= {`bg-zinc-200 p-5 rounded-[20px] dark:bg-zinc-800`}>
+        <ThemeToggle />
         <InputField />
         <TotalExp />
         <OutputField />
@@ -17,3 +19,4 @@ const App = () => {
 }
 
 export default App
+// bg-zinc-200 p-5 rounded-[20px]
